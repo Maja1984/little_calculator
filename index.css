@@ -1,0 +1,94 @@
+/* Page Layout */
+body {
+    margin: 0;
+    background: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card */
+.card {
+    width: 280px;
+    padding: 25px 30px;
+    background: linear-gradient(135deg, #63cbb7, #4fbfa8);
+    border: 3px solid #1f3c5a;
+    border-radius: 16px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin: 0 0 25px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1f3c5a;
+}
+
+/* Form Layout */
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+/* Group Label + input */
+.field {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+label {
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f3c5a;
+}
+
+/* Inputs */
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: 2px solid #1f3c5a;
+    font-size: 14px;
+    outline: none;
+}
+
+/*Button*/
+#btn-add {
+    display: block;
+    margin-top: 10px auto 0 auto;
+    height: 42px;
+    padding: 5px 40px;
+    border-radius: 6px;
+    border: 2px solid #1f3c5a;
+    background: #e5e5e5;
+    color: #1f3c5a;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#btn-add:hover {
+    background: #d6d6d6;
+}
+
+/* Result */
+h2 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: #1f3c5a;
+}
